@@ -194,17 +194,6 @@ function secretNumber() {
   Fix the code below to log the desired output.
 */
 
-// function timeOutCounter() {
-//   for (var i = 0; i <= 5; i++) {
-//     setTimeout(function() {
-//       return function() {
-//         return console.log(i);
-//       };
-//     }, i * 1000);
-//   }
-// }
-// timeOutCounter();
-
 function timeOutCounter() {
   for (let i = 0; i <= 5; i++) {
     setTimeout(function() {
